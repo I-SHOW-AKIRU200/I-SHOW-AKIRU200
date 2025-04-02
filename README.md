@@ -21,7 +21,7 @@
 
 ## 📊 Player APIs
 
-### 1. Player Info
+### 1. PLAYER INFO
 ```http
 GET https://akiru-info.vercel.app/akiru-info-api?uid=2206344781&region=ind&key={API_KEY}
 ```
@@ -89,7 +89,7 @@ GET https://akiru-info.vercel.app/akiru-info-api?uid=2206344781&region=ind&key={
 }
 ```
 
-### 2. Like System
+### 2. GET LIKE
 ```http
 GET https://akiru-like.vercel.app/like?uid=2206344781&server_name=ind
 ```
@@ -104,7 +104,7 @@ GET https://akiru-like.vercel.app/like?uid=2206344781&server_name=ind
 }
 ```
 
-### 3. Visit Tracker
+### 3. GET VISIT
 ```http
 GET https://akiru-visit.vercel.app/visit?uid=2206344781&region=ind
 ```
@@ -120,7 +120,7 @@ GET https://akiru-visit.vercel.app/visit?uid=2206344781&region=ind
 
 ## 🛠️ Utility APIs
 
-### 1. Item Info (3 Options)
+### 1. ITEM INFO (3 Options)
 ```http
 GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=1&items=203047001
 GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=2&items=Sandalwood%20Raja%20(Top)
@@ -135,7 +135,7 @@ GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=3&items=I
 }]
 ```
 
-### 2. Rank Info
+### 2. RANK INFO
 ```http
 GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
 ```
