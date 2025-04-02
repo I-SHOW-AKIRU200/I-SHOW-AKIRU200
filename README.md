@@ -23,48 +23,69 @@
 
 ### 1. Player Info
 ```http
-GET https://akiru-info.vercel.app/akiru-info?uid=2206344781&region=ind
+GET https://akiru-info.vercel.app/akiru-info-api?uid=2206344781&region=ind&key={API_KEY}
 ```
 ```json
-{
-  "credits": "TEAM-AKIRU",
-  "data": {
-    "Guild": {
-      "id": 3035617054,
-      "leader": {
-        "BannerID": 901026013,
-        "account_created": "2019-06-25 06:33:45",
-        "booyah_pass_level": 137,
-        "id": 1136891304,
-        "level": 69,
-        "name": "E R O S !!"
-      },
-      "level": 7,
-      "members_count": 55,
-      "name": "SUPREME'S !!"
-    },
-    "basic_info": {
-      "AccountEXP": 2351766,
-      "AccountType": 1,
-      "AvatarID": 902048008,
-      "BRRank": 323,
-      "BadgeCount": 108,
-      "BadgeID": 1001000082,
-      "BannerID": 901026013,
-      "BrRankPoint": 4752,
-      "DiamondValue": 390,
-      "Liked": 20583,
-      "RankSeason": 44,
-      "Region": "IND",
-      "TitleID": 904590058,
-      "account_created": "2020-07-22 13:59:45",
-      "bio": "[FFB900][b] ㅤ ✿ ㅤ ♬ ㅤ ☯︎ [/b][c]\n     999ㅤ999ㅤ999",
-      "id": "2206344781",
-      "level": 68,
-      "name": "꧁༒☬Ákhil༒"
-    }
+ {
+  "AccountOverview": {
+    "EquippedOutfit": [205041039, 211000140, 214035012, 204000055, 203046040, 211000435],
+    "EquippedSkills": [16, 1806, 8, 1, 16, 6201, 8, 2, 16, 4806, 8, 3, 16, 1005]
   },
-  "status": "success"
+  "BasicProfileInfo": {
+    "AccountEXP": 2362784,
+    "AccountLikes": 21392,
+    "AccountName": "꧁༒☬Ákhil༒",
+    "AccountUID": "2206344781",
+    "AvatarID": "902048008",
+    "BannerID": "901026013",
+    "BooyahPassBadge": 11,
+    "BrRankPoint": "Heroic",
+    "CreatedAt": "22/07/2020, 13:59:45",
+    "CsRankingPoint": 78,
+    "EquippedItems": [
+      "907101817"
+    ],
+    "HasBooyahPass": "Basic",
+    "LastLogin": "02/04/2025, 08:52:55",
+    "Level": 68,
+    "Region": "IND",
+    "Title": "Terminator",
+    "TitleID": "904590058"
+  },
+  "CreditScoreInfo": {
+    "creditScore": 100
+  },
+  "GuildInfo": {
+    "GuildID": "3039430705",
+    "GuildLevel": 5,
+    "GuildName": "YGㅤᎬ-ꮪꮲꭷꮢꭲꮪㅤ",
+    "LiveMembers": 35
+  },
+  "GuildLeaderInfo": {
+    "LeaderBoyaahPassBadge": 4,
+    "LeaderBrRankPoint": "Heroic",
+    "LeaderCreatedAt": "27/08/2020, 13:54:09",
+    "LeaderCsRankingPoint": 48,
+    "LeaderEXP": 1772137,
+    "LeaderLastLogin": "02/04/2025, 08:04:04",
+    "LeaderLevel": 65,
+    "LeaderName": "YGㅤටᴍᴋꫝʀㅤƼⱮ",
+    "LeaderTitle": "4 Years Old",
+    "LeaderTitleID": "904090024",
+    "LeaderUID": "2311867514"
+  },
+  "PlayerGalleryInfo": {
+    "PlayerBIO": "[FFB900][b] ㅤ ✿ ㅤ ♬ ㅤ ☯︎ [/b][c]\n     999ㅤ999ㅤ999"
+  },
+  "PlayerPetInfo": {
+    "PetExp": 540,
+    "PetLevel": 4,
+    "PetName": "Falco",
+    "PetNickName": "Falco"
+  },
+  "PublicCraftlandMaps": {
+    "MapCodes": []
+  }
 }
 ```
 
