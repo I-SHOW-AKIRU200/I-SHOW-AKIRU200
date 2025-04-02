@@ -160,6 +160,7 @@ GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
 | Wishlist Manager | [https://wishlist-add-web.vercel.app/](https://wishlist-add-web.vercel.app/) |
 | Emote ID Finder | [https://thachmora.site/freefire](https://thachmora.site/freefire) |
 | JWT | [https://akiru-jwt.vercel.app/AKIRU-JWT-GENERATOR](https://akiru-jwt.vercel.app/AKIRU-JWT-GENERATOR) |
+| PLAYER INFO | [https://akiru-info-website.vercel.app](https://akiru-info-website.vercel.app) |
 
 </div>
 
