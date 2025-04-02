@@ -148,28 +148,6 @@ GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
   "CsRankPoint": "Elite Master 1 Star"
 }
 ```
-### 3. ITEMS IMAGE API
-```http
-GET https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={API_KEY}
-```
-<div align="center">
-  <!-- Free Fire Logo (Top - 200px) -->
-  <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
-    <img src="https://item-info-pied.vercel.app/akiru-item-info?item_id=203047001&key=FREE-FIRE" alt="Free Fire Logo" width="200">
-  </a>
-  
-  <br> <!-- Line break between logos -->
-### 4. PET INFO API
-  ```http
-GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME}&key={KEY}
-```
-<div align="center">
-  <!-- Free Fire Logo (Top - 200px) -->
-  <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
-    <img src="https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name=Rockie&key=AKIRU" alt="Free Fire Logo" width="200">
-  </a>
-  
-  <br> <!-- Line break between logos -->
 ### 5. MAP INFO API
 ```http
 GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_KEY}
@@ -203,6 +181,30 @@ GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_
   }
 }
 ```
+
+### 3. ITEMS IMAGE API
+```http
+GET https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={API_KEY}
+```
+<div align="center">
+  <!-- Free Fire Logo (Top - 200px) -->
+  <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
+    <img src="https://item-info-pied.vercel.app/akiru-item-info?item_id=203047001&key=FREE-FIRE" alt="Free Fire Logo" width="200">
+  </a>
+  
+  <br> <!-- Line break between logos -->
+### 4. PET INFO API
+  ```http
+GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME}&key={KEY}
+```
+<div align="center">
+  <!-- Free Fire Logo (Top - 200px) -->
+  <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
+    <img src="https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name=Rockie&key=AKIRU" alt="Free Fire Logo" width="200">
+  </a>
+  
+  <br> <!-- Line break between logos -->
+
 
 ## 🌍 Web Services
 
