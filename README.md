@@ -178,7 +178,7 @@ GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_
 {
   "status": "success",
   "data": {
-    "rule": "Shah G Creator",
+    "rule": "TEAM-AKIRU",
     "region": "SG",
     "lang": "en",
     "Craftland Map Details": {
@@ -186,17 +186,19 @@ GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_
       "Creator": "Sunset8_9v6",
       "Title": "Weapon Master",
       "Description": "Kill the most enemies with different weapons",
-      "MapCover": "https://dl-sg-production.freefiremobile.com/3C124B_7104104913_10007_1726822648_MAPCOVER.JPG",
-      "Subscribers": 2123365,
-      "Likes": 8158152,
+      "MapCover": "https://dl-sg-production.freefiremobile.com/3E9EA1_7104104913_10007_1743149154_MAPCOVER.JPG",
+      "Subscribers": 2227317,
+      "Likes": 8540124,
       "Teams": 2,
-      "PlayAverage": 324,
+      "PlayAverage": 316,
       "Rounds": 1,
       "Tags": [
         "PvP",
         "Squad"
       ],
-      "Mode": "Customize"
+      "MiniMap": "APD//z8AAMD///8AAAD///8DAAD8//8PAADw//8/AADA////AAAAAfCAAwAAHIABDgAAcAAAOAAAwAEA4AAAAAcAgAMAABweAA4AAHB4ADgAAMDhP5AAAACH/0ACAAAc/sMPAABwAAA4AADAAQDgAAAAHwCAAwAAfAAADgAAcH74OQAAwPnh5wAAAP+HnwMAAPwffg4AAHB++zkAAMD57ecAAADnh/8DAACc3/4PAABwgAc4AADAAQzgAAAABzDgAwAAHACADwAAcAAAOAAAwAEA4AAAAD/8hwMAACTwHw4AAJDAfzgAAMAB4OEAAAAHgIcDAAAcAAAOAABwAAA4AADAAQDgAAAAB2CAAwAAHMADCAAA8P//PwAAwP///wAAAP///wMAAPz//w8AAPD//z8AAMD///8AAA==",
+      "Mode": "Customize",
+      "Map": "ISLE OF CHAMPS 50×50"
     }
   }
 }
