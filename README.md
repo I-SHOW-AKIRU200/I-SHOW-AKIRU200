@@ -148,7 +148,7 @@ GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
   "CsRankPoint": "Elite Master 1 Star"
 }
 ```
-### 5. MAP INFO API
+### 3. MAP INFO API
 ```http
 GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_KEY}
 ```
@@ -182,7 +182,7 @@ GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_
 }
 ```
 
-### 3. ITEMS IMAGE API
+### 4. ITEMS IMAGE API
 ```http
 GET https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={API_KEY}
 ```
@@ -193,14 +193,25 @@ GET https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={AP
   </a>
   
   <br> <!-- Line break between logos -->
-### 4. PET INFO API
+### 5. PET INFO API
   ```http
-GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME}&key={KEY}
+GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME/PET_ID}&key={KEY}
 ```
 <div align="center">
   <!-- Free Fire Logo (Top - 200px) -->
   <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
     <img src="https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name=Rockie&key=AKIRU" alt="Free Fire Logo" width="200">
+  </a>
+  
+  <br> <!-- Line break between logos -->
+  ### 6. PET INFO API
+  ```http
+GET [https://character-roan.vercel.app/Character_name/Id={CHARACTER_NAME/CHARACTER_ID}
+```
+<div align="center">
+  <!-- Free Fire Logo (Top - 200px) -->
+  <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
+    <img src="https://character-roan.vercel.app/Character_name/Id=alok" alt="Free Fire Logo" width="200">
   </a>
   
   <br> <!-- Line break between logos -->
