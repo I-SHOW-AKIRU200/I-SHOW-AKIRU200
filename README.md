@@ -181,8 +181,18 @@ GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_
   }
 }
 ```
-
-### 4. ITEMS IMAGE API
+  ### 4. CHARACTER INFO API
+  ```http
+GET [https://character-roan.vercel.app/Character_name/Id={CHARACTER_NAME/CHARACTER_ID}
+```
+```json
+{
+  "Character Name": "Alok",
+  "Png Image": "https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/c62e709e3ad8387f5484bb12e1cc81a9.png",
+  "Skill id": "2206"
+}
+```
+### 5. ITEMS IMAGE API
 ```http
 GET https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={API_KEY}
 ```
@@ -193,7 +203,7 @@ GET https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={AP
   </a>
   
   <br> <!-- Line break between logos -->
-### 5. PET INFO API
+### 6. PET INFO API
   ```http
 GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME/PET_ID}&key={KEY}
 ```
@@ -204,13 +214,7 @@ GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME/PET_ID}&
   </a>
   
   <br> <!-- Line break between logos -->
-  ### 6. PET INFO API
-  ```http
-GET [https://character-roan.vercel.app/Character_name/Id={CHARACTER_NAME/CHARACTER_ID}
-```
-```json
-{"Character Name":"Alok","Png Image":"https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/c62e709e3ad8387f5484bb12e1cc81a9.png","Skill id":"2206"}
-```
+
 
 
 ## 🌍 Web Services
