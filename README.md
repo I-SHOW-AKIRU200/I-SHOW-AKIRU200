@@ -148,6 +148,46 @@ GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
   "CsRankPoint": "Elite Master 1 Star"
 }
 ```
+```http
+GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_KEY}
+```
+```json
+{
+  "status": "success",
+  "data": {
+    "rule": "Shah G Creator",
+    "region": "SG",
+    "lang": "en",
+    "Craftland Map Details": {
+      "MapCode": "#FREEFIREDFEF0EE3DA3A74F700181500DD9B85AA4913",
+      "Creator": "Sunset8_9v6",
+      "Title": "Weapon Master",
+      "Description": "Kill the most enemies with different weapons",
+      "MapCover": "https://dl-sg-production.freefiremobile.com/3C124B_7104104913_10007_1726822648_MAPCOVER.JPG",
+      "Subscribers": 2123365,
+      "Likes": 8158152,
+      "Teams": 2,
+      "PlayAverage": 324,
+      "Rounds": 1,
+      "Tags": [
+        "PvP",
+        "Squad"
+      ],
+      "Mode": "Customize"
+    }
+  }
+}
+```
+```http
+https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={API_KEY}
+```
+<div align="center">
+  <!-- Free Fire Logo (Top - 200px) -->
+  <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
+    <img src="https://item-info-pied.vercel.app/akiru-item-info?item_id=203047001&key=FREE-FIRE" alt="Free Fire Logo" width="200">
+  </a>
+  
+  <br> <!-- Line break between logos -->
 
 ## 🌍 Web Services
 
