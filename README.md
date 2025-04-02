@@ -149,6 +149,17 @@ GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
 }
 ```
 ```http
+GET https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={API_KEY}
+```
+<div align="center">
+  <!-- Free Fire Logo (Top - 200px) -->
+  <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
+    <img src="https://item-info-pied.vercel.app/akiru-item-info?item_id=203047001&key=FREE-FIRE" alt="Free Fire Logo" width="200">
+  </a>
+  
+  <br> <!-- Line break between logos -->
+  
+```http
 GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_KEY}
 ```
 ```json
@@ -178,16 +189,6 @@ GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_
   }
 }
 ```
-```http
-https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={API_KEY}
-```
-<div align="center">
-  <!-- Free Fire Logo (Top - 200px) -->
-  <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
-    <img src="https://item-info-pied.vercel.app/akiru-item-info?item_id=203047001&key=FREE-FIRE" alt="Free Fire Logo" width="200">
-  </a>
-  
-  <br> <!-- Line break between logos -->
 
 ## 🌍 Web Services
 
