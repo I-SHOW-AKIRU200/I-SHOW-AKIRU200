@@ -229,6 +229,7 @@ GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME/PET_ID}&
 | Emote ID Finder | [https://thachmora.site/freefire](https://thachmora.site/freefire) |
 | JWT | [https://akiru-jwt.vercel.app/AKIRU-JWT-GENERATOR](https://akiru-jwt.vercel.app/AKIRU-JWT-GENERATOR) |
 | PLAYER INFO | [https://akiru-info-website.vercel.app](https://akiru-info-website.vercel.app) |
+| EVENT WEBSITE | [https://event-api-inky.vercel.app/](https://event-api-inky.vercel.app/)
 
 </div>
 
