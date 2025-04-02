@@ -183,7 +183,7 @@ GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_
 ```
   ### 4. CHARACTER INFO API
   ```http
-GET [https://character-roan.vercel.app/Character_name/Id={CHARACTER_NAME/CHARACTER_ID}
+GET https://character-roan.vercel.app/Character_name/Id={CHARACTER_NAME/CHARACTER_ID}
 ```
 ```json
 {
