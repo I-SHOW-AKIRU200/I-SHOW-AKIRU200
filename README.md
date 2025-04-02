@@ -148,6 +148,7 @@ GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
   "CsRankPoint": "Elite Master 1 Star"
 }
 ```
+### 3. ITEMS IMAGE API
 ```http
 GET https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={API_KEY}
 ```
@@ -158,7 +159,7 @@ GET https://item-info-pied.vercel.app/akiru-item-info?item_id={ITEMS_ID}&key={AP
   </a>
   
   <br> <!-- Line break between logos -->
-
+### 4. PET INFO API
   ```http
 GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME}&key={KEY}
 ```
@@ -169,7 +170,7 @@ GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME}&key={KE
   </a>
   
   <br> <!-- Line break between logos -->
-  
+### 5. MAP INFO API
 ```http
 GET https://freefireinfo.vercel.app/map?region={REGION}&code={MAP_CODE}key={API_KEY}
 ```
