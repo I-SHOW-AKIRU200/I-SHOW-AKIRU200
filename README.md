@@ -208,13 +208,9 @@ GET https://akiru-pet-info.vercel.app/akiru-pet-info?pet_name={PET_NAME/PET_ID}&
   ```http
 GET [https://character-roan.vercel.app/Character_name/Id={CHARACTER_NAME/CHARACTER_ID}
 ```
-<div align="center">
-  <!-- Free Fire Logo (Top - 200px) -->
-  <a href="https://github.com/I-SHOW-AKIRU200/I-SHOW-AKIRU">
-    <img src="https://character-roan.vercel.app/Character_name/Id=alok" alt="Free Fire Logo" width="200">
-  </a>
-  
-  <br> <!-- Line break between logos -->
+```json
+{"Character Name":"Alok","Png Image":"https://freefiremobile-a.akamaihd.net/common/web_event/official2.ff.garena.all/img/20228/c62e709e3ad8387f5484bb12e1cc81a9.png","Skill id":"2206"}
+```
 
 
 ## 🌍 Web Services
