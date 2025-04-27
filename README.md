@@ -23,68 +23,120 @@
 
 ### 1. PLAYER INFO
 ```http
-GET https://akiru-info.vercel.app/akiru-info-api?uid=2206344781&region=ind&key={API_KEY}
+GET https://akiru-info.vercel.app/info?uid=2206344781&region=ind&key={API_KEY}
 ```
 ```json
- {
-  "AccountOverview": {
-    "EquippedOutfit": [205041039, 211000140, 214035012, 204000055, 203046040, 211000435],
-    "EquippedSkills": [16, 1806, 8, 1, 16, 6201, 8, 2, 16, 4806, 8, 3, 16, 1005]
+{
+  "basicInfo": {
+    "accountId": "2206344781",
+    "accountType": 1,
+    "nickname": "꧁༒☬Ákhil༒",
+    "region": "IND",
+    "level": 68,
+    "exp": 2389233,
+    "bannerId": 901026013,
+    "headPic": 902000189,
+    "rank": 325,
+    "rankingPoints": 5609,
+    "badgeCnt": 110,
+    "badgeId": 1001000083,
+    "seasonId": 44,
+    "liked": 23366,
+    "lastLoginAt": "1745723700",
+    "csRank": 322,
+    "csRankingPoints": 115,
+    "weaponSkinShows": [907136108],
+    "maxRank": 325,
+    "csMaxRank": 322,
+    "accountPrefers": {
+      "brPregameShowChoices": [1]
+    },
+    "createAt": "1595406585",
+    "title": 904590059,
+    "externalIconInfo": {
+      "status": "ExternalIconStatus_NOT_IN_USE",
+      "showType": "ExternalIconShowType_FRIEND"
+    },
+    "releaseVersion": "OB48",
+    "showBrRank": true,
+    "showCsRank": true,
+    "socialHighLightsWithBasicInfo": {
+
+    }
   },
-  "BasicProfileInfo": {
-    "AccountEXP": 2362784,
-    "AccountLikes": 21392,
-    "AccountName": "꧁༒☬Ákhil༒",
-    "AccountUID": "2206344781",
-    "AvatarID": "902048008",
-    "BannerID": "901026013",
-    "BooyahPassBadge": 11,
-    "BrRankPoint": "Heroic",
-    "CreatedAt": "22/07/2020, 13:59:45",
-    "CsRankingPoint": 78,
-    "EquippedItems": [
-      "907101817"
-    ],
-    "HasBooyahPass": "Basic",
-    "LastLogin": "02/04/2025, 08:52:55",
-    "Level": 68,
-    "Region": "IND",
-    "Title": "Terminator",
-    "TitleID": "904590058"
+  "profileInfo": {
+    "avatarId": 102000004,
+    "equipedSkills": [205041039, 211000041, 214035012, 204000081, 203046040],
+    "pvePrimaryWeapon": 1,
+    "endTime": 1,
+    "clothesTailorEffects": [1]
   },
-  "CreditScoreInfo": {
-    "creditScore": 100
+  "clanBasicInfo": {
+    "clanId": "3039430705",
+    "clanName": "YGㅤᎬ-ꮪꮲꭷꮢꭲꮪㅤ",
+    "captainId": "2311867514",
+    "clanLevel": 5,
+    "capacity": 50,
+    "memberNum": 45
   },
-  "GuildInfo": {
-    "GuildID": "3039430705",
-    "GuildLevel": 5,
-    "GuildName": "YGㅤᎬ-ꮪꮲꭷꮢꭲꮪㅤ",
-    "LiveMembers": 35
+  "captainBasicInfo": {
+    "accountId": "2311867514",
+    "accountType": 1,
+    "nickname": "YGㅤටᴍᴋꫝʀㅤƼⱮ",
+    "region": "IND",
+    "level": 65,
+    "exp": 1784673,
+    "bannerId": 901026021,
+    "headPic": 902026014,
+    "rank": 321,
+    "rankingPoints": 3598,
+    "badgeCnt": 83,
+    "badgeId": 1001000083,
+    "seasonId": 44,
+    "liked": 11779,
+    "lastLoginAt": "1745728245",
+    "csRank": 318,
+    "csRankingPoints": 73,
+    "weaponSkinShows": [907102509, 912000001],
+    "maxRank": 321,
+    "csMaxRank": 318,
+    "accountPrefers": {
+
+    },
+    "createAt": "1598516649",
+    "title": 904090024,
+    "externalIconInfo": {
+      "status": "ExternalIconStatus_NOT_IN_USE",
+      "showType": "ExternalIconShowType_FRIEND"
+    },
+    "releaseVersion": "OB48",
+    "showBrRank": true,
+    "showCsRank": true,
+    "socialHighLightsWithBasicInfo": {
+
+    }
   },
-  "GuildLeaderInfo": {
-    "LeaderBoyaahPassBadge": 4,
-    "LeaderBrRankPoint": "Heroic",
-    "LeaderCreatedAt": "27/08/2020, 13:54:09",
-    "LeaderCsRankingPoint": 48,
-    "LeaderEXP": 1772137,
-    "LeaderLastLogin": "02/04/2025, 08:04:04",
-    "LeaderLevel": 65,
-    "LeaderName": "YGㅤටᴍᴋꫝʀㅤƼⱮ",
-    "LeaderTitle": "4 Years Old",
-    "LeaderTitleID": "904090024",
-    "LeaderUID": "2311867514"
+  "petInfo": {
+    "id": 1300000091,
+    "level": 4,
+    "exp": 540,
+    "isSelected": true,
+    "skinId": 1310000099,
+    "selectedSkillId": 1315000011
   },
-  "PlayerGalleryInfo": {
-    "PlayerBIO": "[FFB900][b] ㅤ ✿ ㅤ ♬ ㅤ ☯︎ [/b][c]\n     999ㅤ999ㅤ999"
+  "socialInfo": {
+    "accountId": "2206344781",
+    "language": "Language_CN_TRADITIONAL",
+    "signature": "[FFB900][b] ㅤ ✿ ㅤ ♬ ㅤ ☯︎ [/b][c]\n     999ㅤ999ㅤ999",
+    "rankShow": "RankShow_CS"
   },
-  "PlayerPetInfo": {
-    "PetExp": 540,
-    "PetLevel": 4,
-    "PetName": "Falco",
-    "PetNickName": "Falco"
+  "diamondCostRes": {
+    "diamondCost": 390
   },
-  "PublicCraftlandMaps": {
-    "MapCodes": []
+  "creditScoreInfo": {
+    "creditScore": 100,
+    "rewardState": "REWARD_STATE_UNCLAIMED",
+    "periodicSummaryEndTime": "1745566485"
   }
 }
 ```
